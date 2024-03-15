@@ -1,0 +1,75 @@
+
+[
+    {
+      "recipe_img": "https://i.postimg.cc/7h8cb310/1.jpg",
+      "recipe_id": 1,
+      "recipe_name": "Chicken Stir-Fry",
+      "short_description": "A delicious and healthy chicken stir-fry recipe",
+      "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaf", "400 g mushroom"],
+      "preparing_time": "30 minutes",
+      "calories": 350
+    },
+    {
+      "recipe_img": "https://i.postimg.cc/prWf0yR3/2.jpg",
+      "recipe_id": 2,
+      "recipe_name": "Vegetable Pasta",
+      "short_description": "A flavorful pasta dish loaded with fresh vegetables",
+      "ingredients": ["300 g pasta", "150 g cherry tomatoes", "100 g spinach", "50 g grated Parmesan cheese"],
+      "preparing_time": "25 minutes",
+      "calories": 400
+    },
+    {
+      "recipe_img": "https://i.postimg.cc/PfSYXXtr/3.jpg",
+      "recipe_id": 3,
+      "recipe_name": "Grilled Salmon",
+      "short_description": "Juicy grilled salmon fillets with a tangy lemon sauce",
+      "ingredients": ["4 salmon fillets", "2 lemons", "50 ml olive oil", "Salt and pepper to taste"],
+      "preparing_time": "20 minutes",
+      "calories": 300
+    },
+    {
+      "recipe_img": "https://i.postimg.cc/VvvSrtYs/4.jpg",
+      "recipe_id": 4,
+      "recipe_name": "Vegetable Stir-Fry",
+      "short_description": "A quick and easy vegetable stir-fry",
+      "ingredients": ["200 g broccoli", "150 g bell peppers", "100 g carrots", "50 g onion"],
+      "preparing_time": "20 minutes",
+      "calories": 200
+    },
+    {
+      "recipe_img": "https://i.postimg.cc/rFd0q5nQ/5.jpg",
+      "recipe_id": 5,
+      "recipe_name": "Spaghetti Bolognese",
+      "short_description": "Classic spaghetti with a hearty meat sauce",
+      "ingredients": ["300 g spaghetti", "200 g ground beef", "400 g canned tomatoes", "1 onion", "2 cloves garlic"],
+      "preparing_time": "35 minutes",
+      "calories": 450
+    },
+    {
+      "recipe_img": "https://i.postimg.cc/TwY1Fb5j/6.jpg",
+      "recipe_id": 6,
+      "recipe_name": "Mushroom Risotto",
+      "short_description": "Creamy risotto with mushrooms and Parmesan cheese",
+      "ingredients": ["250 g Arborio rice", "200 g mushrooms", "1 liter vegetable broth", "50 g grated Parmesan cheese"],
+      "preparing_time": "40 minutes",
+      "calories": 380
+    },
+    {
+      "recipe_img": "https://i.postimg.cc/zfqGHh7m/7.jpg",
+      "recipe_id": 7,
+      "recipe_name": "Lemon Herb Chicken",
+      "short_description": "Tender chicken breasts marinated in lemon and herbs",
+      "ingredients": ["4 chicken breasts", "2 lemons", "50 g fresh herbs (rosemary, thyme, parsley)", "50 ml olive oil"],
+      "preparing_time": "35 minutes",
+      "calories": 320
+    },
+    {
+      "recipe_img": "https://i.postimg.cc/rFd0q5nQ/5.jpg",
+      "recipe_id": 8,
+      "recipe_name": "Caprese Salad",
+      "short_description": "A simple and refreshing Italian salad with tomatoes, mozzarella, and basil",
+      "ingredients": ["4 tomatoes", "200 g fresh mozzarella", "50 g fresh basil leaves", "2 tbsp balsamic vinegar"],
+      "preparing_time": "15 minutes",
+      "calories": 180
+    }
+  ]
