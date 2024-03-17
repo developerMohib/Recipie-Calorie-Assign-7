@@ -13,7 +13,7 @@ function App() {
       <Header>  </Header>
       <Banner> </Banner>
       <TitleText> </TitleText>
-      <div className='grid grid-cols-3 gap-4'>
+      <div className='lg:grid grid-cols-3 gap-4'>
         <div className='col-span-2'>
           <RecipieDisplay> </RecipieDisplay>
         </div>
