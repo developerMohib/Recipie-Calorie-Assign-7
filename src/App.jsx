@@ -2,7 +2,8 @@
 import './App.css'
 import Banner from './assets/component/Banner/Banner'
 import Header from './assets/component/Header/Header'
-import Recipie from './assets/component/RecipieSection/Recipie'
+import RecipieDisplay from './assets/component/RecipieDisplay/RecipieDisplay'
+import RecipieList from './assets/component/RecipieList/RecipieList'
 import TitleText from './assets/component/TitleText/TitleText'
 
 function App() {
@@ -12,7 +13,14 @@ function App() {
       <Header>  </Header>
       <Banner> </Banner>
       <TitleText> </TitleText>
-      <Recipie> </Recipie>
+      <div className='grid grid-cols-3 gap-4'>
+        <div className='col-span-2'>
+          <RecipieDisplay> </RecipieDisplay>
+        </div>
+        <div>
+          <RecipieList> </RecipieList>
+        </div>
+      </div>
     </>
   )
 }
