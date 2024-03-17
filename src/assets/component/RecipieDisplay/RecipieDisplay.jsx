@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import './RecipieDisplay.css'
 
-const RecipieDisplay = () => {
+const RecipieDisplay = ( {handleCook} ) => {
     const [myRecipie, setMyRecipie] = useState([]) ;
     
     useEffect( () => {
@@ -10,7 +10,7 @@ const RecipieDisplay = () => {
         .then(res => res.json())
         .then(data => setMyRecipie(data))
     },[] )
-    console.log(myRecipie);
+    // console.log(myRecipie);
 
     return (
         <div  className="">
@@ -29,13 +29,17 @@ const RecipieDisplay = () => {
                                             
                                             return (
                                                 <div key={idx} className='ml-10'>
-                                                    <li className='text-left'> {idx}. {item} </li>
+                                                    <li className='text-left'> {idx + 1}. {item} </li>
                                                 </div>
                                             )
                                         } )
                                     }
+                                    <div className='flex justify-around'>
+                                        <h5 className='text-gray-600'> {recipie.preparing_time} Minutes </h5>
+                                        <h5 className='text-gray-600'> {recipie.calories} Callories </h5>
+                                    </div>
                                     <div className="card-actions justify-end">
-                                    <button className="btn btn-primary">Buy Now</button>
+                                    <button onClick={ () => handleCook(recipie) } className="btn bg-[#0be58a] text-black hover:bg-slate-200 border-none rounded-full ">Want to Cook</button>
                                     </div>
                                 </div>
                             </div>
