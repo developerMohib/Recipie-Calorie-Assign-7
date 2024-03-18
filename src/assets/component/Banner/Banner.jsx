@@ -6,7 +6,7 @@ const Banner = () => {
         <div>
             
             <div>
-            <div className="hero min-h-screen rounded-3xl" style={{backgroundImage: "linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://ibb.co/CmKb0Rq)"}}>
+            <div className="hero min-h-screen rounded-3xl" style={{backgroundImage: "linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(122, 72, 110, 1.5)), url('https://i.postimg.cc/FzNGbkFB/pexels-elle-hughes-2696064.jpg')"}}>
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="lg:w-3/5 w-full">

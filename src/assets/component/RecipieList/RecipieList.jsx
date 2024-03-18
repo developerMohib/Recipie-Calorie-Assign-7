@@ -1,6 +1,6 @@
 import React from 'react';
 
-const RecipieList = ( {cook} ) => {
+const RecipieList = ( {cook, handleDelete} ) => {
     // console.log(cook = cook);
     return (
         <div className='myClassForRecipie'>
@@ -22,7 +22,7 @@ const RecipieList = ( {cook} ) => {
                             <p className='w-1/4 text-left' > {item.recipe_name} </p>
                             <p className='w-1/4 text-left' > {item.preparing_time} </p>
                             <p className='w-1/4 text-left' >{item.calories} Cal</p>
-                            <button className='w-1/4 bg-[#0be58a] rounded-full border-none cursor-pointer' > Prepairing </button>
+                            <button onClick={ () => handleDelete(item)} className='w-1/4 bg-[#0be58a] rounded-full border-none cursor-pointer' > Prepairing </button>
                     </div>
                         )
                     } )

@@ -9,11 +9,11 @@ import { useState } from "react";
 
 function App() {
 
-  const [cook, setCook] = useState( [] )
-
+  const [cook, setCook] = useState( [] );
+  const [newCook, setNewCook] = useState( [] );
 
   const handleCook = (recipie) => {
-    const isExist = cook.find( recip => recip.recipe_id === recipie.recipe_id );
+    const isExist = cook.find( recip => recip.recipe_id == recipie.recipe_id );
     console.log(isExist);
     if(!isExist){
       setCook( [...cook, recipie] );
@@ -22,7 +22,16 @@ function App() {
       alert('Vat khan mia');
     }
   }
-// console.log(cook);
+  const handleDelete = (id) => {
+    console.log('alhamdulliah',id);
+    const isExist = cook.filter( items => items.id !== id );
+    if(isExist){
+      setNewCook([...newCook, id]);
+    }
+  }
+
+console.log(cook);
+console.log(newCook);
   return (
     <>
       <Header>  </Header>
@@ -33,7 +42,7 @@ function App() {
           <RecipieDisplay handleCook = {handleCook} > </RecipieDisplay>
         </div>
         <div>
-          <RecipieList cook = {cook}> </RecipieList>
+          <RecipieList cook = {cook} handleDelete = {handleDelete} > </RecipieList>
         </div>
       </div>
     </>
