@@ -14,7 +14,7 @@ function App() {
 
   const handleCook = (recipie) => {
     const isExist = cook.find( recip => recip.recipe_id == recipie.recipe_id );
-    console.log(isExist);
+    console.log( typeof isExist);
     if(!isExist){
       setCook( [...cook, recipie] );
     }
@@ -30,8 +30,8 @@ function App() {
     }
   }
 
-console.log(cook);
-console.log(newCook);
+// console.log(cook);
+// console.log(newCook);
   return (
     <>
       <Header>  </Header>
